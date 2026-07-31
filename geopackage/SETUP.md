@@ -6,7 +6,8 @@ This is a custom fieldwalking Qfield project which I have created for a local ar
 
 First of all you need to download the geopackage from this repository. To do that firstly click onto the geopackage in Github and click Raw (below). Make sure to save the geopackage somewhere sensible!
 
-![[Pasted image 20260731141720.png]]
+<img width="867" height="290" alt="image" src="https://github.com/user-attachments/assets/c0a028f3-fb33-4a93-9779-7f71adea1e81" />
+
 
 Next open up a blank QGIS project and add the geopackage connection in your browser panel.
 
