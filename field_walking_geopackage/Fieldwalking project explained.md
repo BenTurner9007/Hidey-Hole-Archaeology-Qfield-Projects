@@ -18,6 +18,6 @@ This field is set so that Qfield can open its camera function which allows a pho
 This attribute is hidden from the user but has a user expression "now()" to automatically record the date/time that a point was taken. It was decidded to hide this field from the user to avoid cluttering the screen as it can be automatically calculated from Qfield
 ### *haccuracy* (decimal double)
 This field is set with a default user expression (@position_horizontal_accuracy) to automatically record the horizontal accuracy of the recorded point. This value is then tied to a buffer in the Fieldwork recording — fieldwalking_find to visually represent the horizontal accuracy of each recorded point to indicate the radium in which this point may fall. This is a hidden field that does not require user input.
-### *easting, northing, height*
+### *easting, northing, height* (decimal double)
 Automatically populates easting, northings and height from the phone device and are controlled by default user expressions x(@geometry), y(@geometery) and z(@geometry). These fields are deliberately hidden from the user as they are generated fields and require no user input.
 
