@@ -1,7 +1,6 @@
 # Layers
 ## Fieldwork recording — fieldwalking_find
-Geometry = Point
-CRS = 27700 British National Grid
+This is a point geometry layer used to pinpoint a find recorded during fieldwalking.
 ### Symbology
 The symbology for this layer is set as categorised based off of the Find Type value which is controlled by a value relation table (discussed below). This means that each unique artefact type is displayed as its own colour. *Note* if you add a new finds type you will need to reclassify the categorised symbology and push changes back to Qfield.
 ### Attributes
@@ -21,3 +20,15 @@ This field is set with a default user expression (@position_horizontal_accuracy)
 ### *easting, northing, height* (decimal double)
 Automatically populates easting, northings and height from the phone device and are controlled by default user expressions x(@geometry), y(@geometery) and z(@geometry). These fields are deliberately hidden from the user as they are generated fields and require no user input.
 
+## areas_covered (polygon)
+This layer can be used to visually depict the area covered by fieldwalking. This is especially useful when analysing finds distribution to note any gaps in the area surveyed.
+### Attributes
+### *Date (date/time)*
+Hidden from the user and automatically populated using a now() default user expression. This allows for spatial analysis of coverage areas over time.
+
+## areas_unavailable (polygon)
+this layer can be used to visualise areas that are not availbale for fieldwalking. Useful again in spatial distribution analysis and as a record of which areas still need covering.
+### *Date (date/time)*
+Hidden from the user and automatically populated using a now() default user expression. This allows for spatial analysis of coverage areas over time.
+### *Description*
+Free text description of the particular constraint (for example "Area flooded during survey" etc) This attribute is displayed as a label for ease of viewing.
