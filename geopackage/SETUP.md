@@ -17,9 +17,11 @@ Next open up a blank QGIS project and add the geopackage connection in your brow
 
 If you are struggling with this step, firstly you need to make sure your browser panel is displaying. to check this click on the view dropdown at the top of your window.
 
-![[Pasted image 20260731142345.png]]
+<img width="807" height="475" alt="image" src="https://github.com/user-attachments/assets/03514ba2-a36f-4e81-8f73-fb6659eb376c" />
+
  Navigate to Panels and toggle the Browser option
-![[Pasted image 20260731142434.png|697]]
+<img width="781" height="478" alt="image" src="https://github.com/user-attachments/assets/12f0e655-87f7-4f4c-83f4-a6eb3495e578" />
+
 This should ensure that your Browser panel is visible with your GeoPackage option - it is a good idea to leave this panel showing.
 
 ![[Pasted image 20260731142642.png]]
