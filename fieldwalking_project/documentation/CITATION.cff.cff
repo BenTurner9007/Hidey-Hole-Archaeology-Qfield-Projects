@@ -1,0 +1,22 @@
+
+cff-version: 1.2.0
+message: "If you use this tutorial, GeoPackage, or QGIS project, please cite it using the metadata below."
+type: software
+title: "Hidey Hole Archaeology GIS Tutorials: Fieldwalking Qfield Project"
+abstract: "The repo contains several guides on how to use the data and what the GIS data can actually achieve together with a brief overview of what Fieldwalking actually is"
+authors:
+  - family-names: "Turner"
+    given-names: "Ben"
+    # orcid: "https://orcid.org/0009-0007-6613-0632"   version: "1.0.0"
+date-released: "2026-08-09"
+license: "CC-BY-4.0"
+url: "https://github.com/BenTurner9007/Hidey-Hole-Archaeology-Qfield-Projects"
+keywords:
+  - archaeology
+  - digital archaeology
+  - GIS
+  - QGIS
+  - GeoPackage
+  - field recording
+  - fieldwalking
+  - mobile GIS

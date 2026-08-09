@@ -1,6 +1,8 @@
 # Introduction
 
-This is a custom fieldwalking Qfield project which I have created for a local archaeology group to undertake some fieldwalking in the local area. Please feel free to download and amend this data as you see fit.
+This is a custom fieldwalking Qfield project which I have created for all to use and adapt however you see fit. Each project will have different recording priorities so feel free to mess around with this project as much as you need to. I hope this version gives you an idea of what can be achieved.
+
+Some things to make clear before you begin with this data. The geopackage contains a QGIS project. this walkthrough will guide you through converting that QGIS project into a Qfield project ready to use on whichever mobile device you have access to.
 
 ## 1. Downloading the data
 
