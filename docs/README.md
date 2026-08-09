@@ -20,7 +20,7 @@ The GeoPackage (`fieldwalking_layers.gpkg`) includes:
 - **`areas_covered`** (polygon) — the ground actually walked, with an auto-recorded date, for spatial coverage analysis.
 - **`areas_unavailable`** (polygon) — areas that couldn't be surveyed (e.g. flooded, crops), with a date and a free-text description, so gaps in coverage are documented rather than just absent.
 
-Full attribute-by-attribute details are in [`Fieldwalking project explained`](docs/fieldwalking_project/documentation/field_walking_geopackage/Fieldwalking%20project%20explained.md).
+Full attribute-by-attribute details are in [`Fieldwalking project explained`](./fieldwalking_project/documentation/Fieldwalking%20project%20explained.md).
 
 ## Getting started
 
