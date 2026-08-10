@@ -16,7 +16,6 @@ A ready-to-use QGIS/QField project for running community and society **fieldwalk
 ## The layers 
 
 The GeoPackage (`fieldwalking_layers.gpkg`) includes:
-[**`fieldwalking_find`**](./fieldwalking_project/documentation/Fieldwalking%20project%20explained.md#fieldwork-recording--fieldwalking_find)
 
 - [**`fieldwalking_find`**](./fieldwalking_project/documentation/Fieldwalking%20project%20explained.md#fieldwork-recording--fieldwalking_find) (point) — records an individual find. Categorised symbology by artefact type (via a `artefact_types` value-relation table), an enforced-unique find number, finder name (via a `field_operatives` value-relation table), a photo field, and auto-populated date, GPS accuracy, and easting/northing/height.
 - **`areas_covered`** (polygon) — the ground actually walked, with an auto-recorded date, for spatial coverage analysis.
