@@ -30,7 +30,7 @@ Full attribute-by-attribute details are in [`Fieldwalking project explained`](./
 3. Install the QField Sync plugin and convert the project to a QField Cloud project.
 4. Sync to the QField app on your phone and start recording finds in the field.
 
-The full walkthrough, with screenshots, is in [`Qfield Setup`](./fieldwalking_project/documentation/Qfield20%Setup.md) 
+The full walkthrough, with screenshots, is in [`Qfield Setup`](./fieldwalking_project/documentation/Qfield%20Setup.md) 
 ## Customising for your own survey
 
 This project was built for one local group's needs, but it's meant to be adapted:
