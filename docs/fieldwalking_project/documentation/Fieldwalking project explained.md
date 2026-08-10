@@ -1,5 +1,5 @@
 ---
-title: Fieldwalking Documentation
+
 ---
 # Project Features
 So this fieldwalking project has been setup with a few unique features worth discussing here.
