@@ -1,3 +1,19 @@
+# Features
+So this fieldwalking project has been setup with a few unique features worth discussing here.
+## Horizontal accuracy indicator within fieldwalking finds layer
+This is a key feature of the project setup and has been included for several reasons. In commercial field archaeology it is standard practise that each find spot is geolocated using survey grade GPS equipment - usually to within a few centimeter accuracy. Most field units will be setup to use this sort of equipment, but volunteer/community groups may not have access to this level of equipment, and will likely not have the skills required to use survey grade GPS equipment.
+As a result of this, many community groups may result to older techniques of logging finds in transects and stints where finds are located within a linear corridor block. Although this is useful, with technology (free!) available to use today we can start to do one better. With Qfield we can use our internal phone gps to locate our find spots - with one very important caveat. Phone GPS accuracy is at best around 1m (ish). The Qfield project has been setup to record the internal phone gps accuracy within the haccuracy field for each point taken. This is then buffered out to produce a radius around each point. This gives us an indication of the likely radius in which each findspot sits. Although not as good as survey grade GPS accuracy - this infomation gives some useful insight when conducting spatial analysis on each findspot.
+
+## Paradata Tables
+
+Within the project I have also included several Paradata tables. These are non-spatial layers but contain fields that can be used to record valuable paradata
+
+### What is Paradata?
+
+Paradata in the sense of the fieldwalking project is essentially data on how the data was collected, which can be extremeley useful in how we interpret our findings. For example was a particular day wet or bright sunshine? These bits of data matter and can be really useful in the long term.
+
+
+
 # Layers
 ## Fieldwork recording — fieldwalking_find
 This is a point geometry layer used to pinpoint a find recorded during fieldwalking.
