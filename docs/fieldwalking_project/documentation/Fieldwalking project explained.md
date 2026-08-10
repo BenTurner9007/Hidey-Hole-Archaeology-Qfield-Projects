@@ -1,4 +1,4 @@
-# Features
+# Project Features
 So this fieldwalking project has been setup with a few unique features worth discussing here.
 ## Horizontal accuracy indicator within fieldwalking finds layer
 This is a key feature of the project setup and has been included for several reasons. In commercial field archaeology it is standard practise that each find spot is geolocated using survey grade GPS equipment - usually to within a few centimeter accuracy. Most field units will be setup to use this sort of equipment, but volunteer/community groups may not have access to this level of equipment, and will likely not have the skills required to use survey grade GPS equipment.
