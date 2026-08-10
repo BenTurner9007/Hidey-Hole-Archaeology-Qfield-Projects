@@ -6,10 +6,11 @@ A ready-to-use QGIS/QField project for running community and society **fieldwalk
 
 ```
 .
-└── field_walking_geopackage/
-    ├── fieldwalking_layers.gpkg          # GeoPackage: layers, styles, and the embedded QGIS project
-    ├── FIELDWALKING_SETUP.md             # Step-by-step guide: QGIS → QField Cloud → phone
-    └── Fieldwalking project explained.md # Reference for each layer and its attributes
+
+    ├── fieldwalking_layers.gpkg              # GeoPackage: layers, styles, and the embedded QGIS project
+    ├── Qfield Setup.md                       # Step-by-step guide: QGIS → QField Cloud → phone
+    ├── Fieldwalking project explained.md     # Reference for each layer and its attributes and general project information
+    └── What is fieldwalking.md               # Brief document explaining what fieldwalking can achieve
 ```
 
 ## The layers
