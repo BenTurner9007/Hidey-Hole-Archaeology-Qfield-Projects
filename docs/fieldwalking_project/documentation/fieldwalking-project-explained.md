@@ -19,13 +19,15 @@ While this doesn't match survey-grade GPS precision, it provides genuinely usefu
 The default user expression in the `haccuracy` field is
 > @haccuracy
 
-## Paradata Tables
+## Non-Spatial Layers
 
-Within the project I have also included several Paradata tables. These are non-spatial layers but contain fields that can be used to record valuable paradata.
+### Paradata Tables
+
+Within the project I have included several Paradata tables. These are non-spatial layers but contain fields that can be used to record valuable paradata.
 
 Paradata in the sense of the fieldwalking project is essentially data on how the data was collected, which can be extremeley useful in how we interpret our findings. For example was a particular day wet or bright sunshine? These bits of data matter and can be really useful in the long term.
 
-### field_observations
+#### field_observations
 
 This paradata table contains four fields and is used to record general site conditions on a given day. Capturing this kind of contextual data is essential for understanding conditions that may have influenced or skewed the collected data
 
@@ -38,7 +40,7 @@ This paradata table contains four fields and is used to record general site cond
 
 The fields in this table are not linked to any of the spatial layers via value relations. This means that this table is not mandatory to the function of the fieldwalking project.
 
-### field_operatives
+#### field_operatives
 
 The field operatives table is a non-spatial paradata table used to record the names of field operatives during the survey. The aim of this table is two-fold:
 1. to record the names of the operatives so that spatial patterning of find type by finder may be produced. This is useful paradata to collect as an operative who is skilled at one type of artefact identification may miss other types of artefacts. If this data is collected within the findspot data then it can be interogated more closely 
@@ -50,6 +52,11 @@ the table is relatively simple by design but can be adapted if you wish to recor
 | :---        |    ---   | 
 | Name | Used to record the full name of the operative |
 
+### Value Relation Tables
+
+As described above, the `field_operatives` table falls under paradata table and value relation table categories. The only non-spatial table within the project which is purely a value relation table is the `artefact_types` table.
+
+#### `artefact_types`
 
 
 
