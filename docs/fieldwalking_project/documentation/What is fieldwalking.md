@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # What is Fieldwalking? A Guide to the Method
 
 ## The short version
