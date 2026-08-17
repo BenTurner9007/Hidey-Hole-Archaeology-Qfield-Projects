@@ -40,11 +40,21 @@ The fields in this table are not linked to any of the spatial layers via value r
 
 ### field_operatives
 
+The field operatives table is a non-spatial paradata table used to record the names of field operatives during the survey. The aim of this table is two-fold:
+1. to record the names of the operatives so that spatial patterning of find type by finder may be produced. This is useful paradata to collect as an operative who is skilled at one type of artefact identification may miss other types of artefacts. If this data is collected within the findspot data then it can be interogated more closely 
+2. to provide a value relation table within the fieldwalking findspot spatial layer from which to record the finder of each object.
+
+the table is relatively simple by design but can be adapted if you wish to record further details on field operatives - for example you could add further fields to record experience levels if necessary
+
+| Field | Description |
+| :---        |    ---   | 
+| Name | Used to record the full name of the operative |
 
 
 
 
-# Layers
+
+# Spatial Layers
 ## Fieldwork recording — fieldwalking_find
 This is a point geometry layer used to pinpoint a find recorded during fieldwalking.
 ### Symbology
