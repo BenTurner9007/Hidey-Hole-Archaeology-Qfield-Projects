@@ -29,13 +29,10 @@ Paradata in the sense of the fieldwalking project is essentially data on how the
 
 This paradata table contains four fields.
 
-|*Date*|used to record the date of the observation|
----
-|*Weather*| To record the weather conditions during the survey|
----
-|*Ground Conditions*|To record the condition of the ground when survey was undertaken. (Dry, waterlogged etc)|
----
-|*General Description*|to record any general information not already covered.|
+| *Date* |used to record the date of the observation |
+| *Weather* | To record the weather conditions during the survey |
+| *Ground Conditions* |To record the condition of the ground when survey was undertaken. (Dry, waterlogged etc) |
+| *General Description* |to record any general information not already covered. |
 
 # Layers
 ## Fieldwork recording — fieldwalking_find
