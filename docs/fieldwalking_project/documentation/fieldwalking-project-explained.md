@@ -27,8 +27,9 @@ Paradata in the sense of the fieldwalking project is essentially data on how the
 
 ### field_observations
 
-This paradata table contains four fields
-> Date
+This paradata table contains four fields.
+
+*Date*
 used to record the date of the observation
 
 > Weather
