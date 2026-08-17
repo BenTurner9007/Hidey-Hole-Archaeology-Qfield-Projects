@@ -1,5 +1,5 @@
 ---
-theme: pages-themes/cayman@v0.2.0
+layout: pages-themes/cayman@v0.2.0
 ---
 # Introduction
 
