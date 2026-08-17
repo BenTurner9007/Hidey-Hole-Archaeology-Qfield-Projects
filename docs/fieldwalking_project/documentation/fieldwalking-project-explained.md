@@ -25,6 +25,18 @@ Within the project I have also included several Paradata tables. These are non-s
 
 Paradata in the sense of the fieldwalking project is essentially data on how the data was collected, which can be extremeley useful in how we interpret our findings. For example was a particular day wet or bright sunshine? These bits of data matter and can be really useful in the long term.
 
+### field_observations
+
+This paradata table contains four fields
+> Date
+> > used to record the date of the observation
+> Weather
+> > To record the weather conditions during the survey
+> Ground Conditions
+> > To record the condition of the ground when survey was undertaken. (Dry, waterlogged etc)
+> General Description
+> > to record any general information not already covered.
+
 # Layers
 ## Fieldwork recording — fieldwalking_find
 This is a point geometry layer used to pinpoint a find recorded during fieldwalking.
