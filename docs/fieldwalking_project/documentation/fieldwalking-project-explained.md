@@ -27,9 +27,11 @@ Within the project I have included several Paradata tables. These are non-spatia
 
 Paradata in the sense of the fieldwalking project is essentially data on how the data was collected, which can be extremeley useful in how we interpret our findings. For example was a particular day wet or bright sunshine? These bits of data matter and can be really useful in the long term.
 
-#### field_observations
+#### `field_observations`
 
-This paradata table contains four fields and is used to record general site conditions on a given day. Capturing this kind of contextual data is essential for understanding conditions that may have influenced or skewed the collected data
+This paradata table contains four fields and is used to record general site conditions on a given day. Capturing this kind of contextual data is essential for understanding conditions that may have influenced or skewed the collected data.
+
+Table structure: 
 
 | Field | Description |
 | :---        |    ---   | 
@@ -40,13 +42,15 @@ This paradata table contains four fields and is used to record general site cond
 
 The fields in this table are not linked to any of the spatial layers via value relations. This means that this table is not mandatory to the function of the fieldwalking project.
 
-#### field_operatives
+#### `field_operatives`
 
 The field operatives table is a non-spatial paradata table used to record the names of field operatives during the survey. The aim of this table is two-fold:
 1. to record the names of the operatives so that spatial patterning of find type by finder may be produced. This is useful paradata to collect as an operative who is skilled at one type of artefact identification may miss other types of artefacts. If this data is collected within the findspot data then it can be interogated more closely 
 2. to provide a value relation table within the fieldwalking findspot spatial layer from which to record the finder of each object.
 
 the table is relatively simple by design but can be adapted if you wish to record further details on field operatives - for example you could add further fields to record experience levels if necessary
+
+Table structure: 
 
 | Field | Description |
 | :---        |    ---   | 
@@ -58,14 +62,20 @@ As described above, the `field_operatives` table falls under paradata table and 
 
 #### `artefact_types`
 
+As a default I have pre-populated this table with several common artefact types that you will come across in the UK such as lithic, pottery etc. The purpose of this table is to create a value relation in the `Fieldwork recording — fieldwalking_find` layer so that a consistent terminology can be used. This consistency will aid in processing and visualisation of the spatial data. For example if "Pot", "Pottery", "pot" were all used in the artefact type field, then when the data is categorised QGIS would create three separate categories for each version of artefact type. Please see the Symbology section in the `Fieldwork recording — fieldwalking_find` for an important caveat when adding new artefact types into this table.
 
+Table structure:
+
+| Field | Description |
+| :---        |    ---   | 
+| Artefact Type | Used to record the type of artefact recorded |
 
 
 # Spatial Layers
-## Fieldwork recording — fieldwalking_find
+## `Fieldwork recording — fieldwalking_find`
 This is a point geometry layer used to pinpoint a find recorded during fieldwalking.
 ### Symbology
-The symbology for this layer is set as categorised based off of the Find Type value which is controlled by a value relation table (discussed below). This means that each unique artefact type is displayed as its own colour. *Note* if you add a new finds type you will need to reclassify the categorised symbology and push changes back to Qfield.
+The symbology for this layer is set as categorised based off of the Find Type value which is controlled by a value relation table (discussed above). This means that each unique artefact type is displayed as its own colour. *Note* if you add a new finds type you will need to reclassify the categorised symbology and push changes back to Qfield.
 ### Attributes
 ### *Find Number (integer)*
 This field is used to record a unique find number. It is possible to add a custom user expression to automatically number this field but I have intentionally left it blank so that the recorder can assign whatever unique number they wish. As a matter of good practise - each find should be given its own unique identifier so that any further specialist info may be related to the spatial layer. If operating a fieldwalking project with more than one Qfield project running - it would be a good idea for the qfield recorders to issue themselves blocks of numbers so that cross over in finds numbering cant occur.
