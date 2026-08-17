@@ -1,3 +1,7 @@
+---
+layout:default
+---
+
 #Qfield Setup Documentation
 
 # Introduction
