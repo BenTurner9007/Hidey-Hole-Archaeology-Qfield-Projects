@@ -22,7 +22,9 @@ The GeoPackage (`fieldwalking_layers.gpkg`) includes:
 
 Full attribute-by-attribute details are in [`Fieldwalking project explained`](./fieldwalking_project/documentation/Fieldwalking%20project%20explained.md).
 
-Link to download the geopackage [Download the GeoPackage](../field_walking_geopackage/fieldwalking_layers.gpkg)
+Link to download the geopackage [Download the GeoPackage](./field-walking-geopackage/fieldwalking-layers.gpkg)
+
+
 
 ## Getting started
 
