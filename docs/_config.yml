@@ -1,5 +1,9 @@
 remote_theme: pages-themes/cayman@v0.2.0
-layout: default
 plugins:
   - jekyll-readme-index
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
