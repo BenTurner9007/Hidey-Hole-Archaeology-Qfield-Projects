@@ -1,3 +1,6 @@
+---
+remote_theme: pages-themes/cayman@v0.2.0
+---
 # Introduction
 
 This is a custom fieldwalking Qfield project which I have created for all to use and adapt however you see fit. Each project will have different recording priorities so feel free to mess around with this project as much as you need to. I hope this version gives you an idea of what can be achieved.
