@@ -9,7 +9,8 @@ So this fieldwalking project has been setup with a few unique features which aim
 This is a key feature of the project setup and has been included for several reasons. In commercial field archaeology it is standard practise that each find spot is geolocated using survey grade GPS equipment - usually to within a few centimeter accuracy. Most field units will be setup to use this sort of equipment, but volunteer/community groups may not have access to this level of equipment, and will likely not have the skills required to use survey grade GPS equipment.
 As a result of this, many community groups may result to older techniques of logging finds in transects and stints where finds are located within a linear corridor block. Although can be useful... with the technology (freely!) available to use today, we can start to do one better. With Qfield we can use our internal phone gps to locate our find spots - with one very important caveat to remember. Phone GPS accuracy is at best around 1m (ish). The Qfield project supplied in the geopackage has been setup to record the internal phone gps accuracy within the 'haccuracy' field for each point taken. This is then buffered out to produce a radius around each point. This gives us an indication of the likely radius in which each findspot sits. Although not as good as survey grade GPS accuracy - this infomation gives some useful insight when conducting spatial analysis on each findspot.
 
-The default user expression in the haccuracy field is > @haccuracy
+The default user expression in the haccuracy field is
+> @haccuracy
 
 ## Paradata Tables
 
