@@ -8,9 +8,9 @@ So this fieldwalking project has been setup with a few unique features which aim
 ## Horizontal accuracy indicator within fieldwalking finds layer
 This is a key feature of the project setup, included for several reasons.
 
-In commercial field archaeology, it's standard practice to geolocate each find spot using survey-grade GPS equipment — typically accurate to within a few centimetres. Most professional field units have access to this equipment, but volunteer and community groups often don't, and may also lack the training needed to operate it.
+In commercial field archaeology, it's standard practice to geolocate each find spot using survey-grade GPS equipment which is typically accurate to within a few centimetres. Most professional field units have access to this equipment, but volunteer and community groups often don't, and may also lack the training needed to operate it.
 
-As a result, many community groups fall back on older techniques: logging finds within transects or stints, where finds are recorded as belonging to a linear corridor rather than a precise point. While this approach has its uses, the technology now freely available to us lets us do better.
+As a result, many community groups fall back on older techniques: logging finds within transects or stints, where finds are recorded as belonging to a linear corridor rather than a precise point. While this approach has its uses, the technology now freely available to us lets go one better.
 
 QField allows us to use a phone's internal GPS to record find spot locations directly — with one important caveat: phone GPS accuracy is, at best, around 1 metre. To account for this, the QField project supplied in the GeoPackage records each point's GPS accuracy in the haccuracy field. This value is then used to generate a buffer radius around each point, giving a visual indication of the likely area in which the true find spot sits.
 
