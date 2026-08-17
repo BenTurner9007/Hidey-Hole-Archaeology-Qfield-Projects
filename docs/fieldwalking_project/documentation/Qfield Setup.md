@@ -1,5 +1,5 @@
 ---
-layout:default
+layout: default
 ---
 
 # Qfield Setup Documentation
