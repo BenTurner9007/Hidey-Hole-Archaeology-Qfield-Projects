@@ -27,14 +27,14 @@ Paradata in the sense of the fieldwalking project is essentially data on how the
 
 ### field_observations
 
-This paradata table contains four fields and is used to capture general site conditions on any given day. This sort of data is crucial in understanding data collection conditions which may have lead to skewed data.
+This paradata table contains four fields and is used to record general site conditions on a given day. Capturing this kind of contextual data is essential for understanding conditions that may have influenced or skewed the collected data
 
 | Field | Description |
 | :---        |    ---   | 
-| *`Date`* | Used to record the date of the observation. This is deliberately not auto-filled to allow for retrospective data entry as the date can be picked from a calendar view. |
-| *Weather* | To record the weather conditions during the survey |
-| *Ground Conditions* | To record the condition of the ground when survey was undertaken. (Dry, waterlogged etc) |
-| *General Description* | To record any general information not already covered. |
+| `Date` | Used to record the date of the observation. This is deliberately not auto-filled to allow for retrospective data entry as the date can be picked from a calendar view. |
+| `Weather` | To record the weather conditions during the survey |
+| `Ground Conditions` | To record the condition of the ground when survey was undertaken. (Dry, waterlogged etc) |
+| `General Description` | To record any general information not already covered. |
 
 The fields in this table are not linked to any of the spatial layers via value relations. This means that this table is not mandatory to the function of the fieldwalking project.
 
