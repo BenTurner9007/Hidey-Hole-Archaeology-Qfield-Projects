@@ -1,7 +1,3 @@
----
-title: "README"
-permalink: /
----
 # Project Features
 So this fieldwalking project has been setup with a few unique features worth discussing here.
 ## Horizontal accuracy indicator within fieldwalking finds layer
