@@ -21,13 +21,9 @@ The default user expression in the `haccuracy` field is
 
 ## Paradata Tables
 
-Within the project I have also included several Paradata tables. These are non-spatial layers but contain fields that can be used to record valuable paradata
-
-### What is Paradata?
+Within the project I have also included several Paradata tables. These are non-spatial layers but contain fields that can be used to record valuable paradata.
 
 Paradata in the sense of the fieldwalking project is essentially data on how the data was collected, which can be extremeley useful in how we interpret our findings. For example was a particular day wet or bright sunshine? These bits of data matter and can be really useful in the long term.
-
-
 
 # Layers
 ## Fieldwork recording — fieldwalking_find
