@@ -12,7 +12,7 @@ Some things to make clear before you begin with this data. The geopackage contai
 
 ### 1. Downloading the data
 
-First of all you need to download the geopackage from this repository. To do that firstly click onto the geopackage in Github and click Raw (below). Make sure to save the geopackage somewhere sensible! Or [Download the GeoPackage](./fieldwalking_project/documentation/field-walking-geopackage/fieldwalking-layers.gpkg)
+First of all you need to download the geopackage from this repository. To do that firstly click onto the geopackage in Github and click Raw (below). Make sure to save the geopackage somewhere sensible! Or download the geopackage from the home page.
 
 <img width="867" height="290" alt="image" src="https://github.com/user-attachments/assets/c0a028f3-fb33-4a93-9779-7f71adea1e81" />
 
