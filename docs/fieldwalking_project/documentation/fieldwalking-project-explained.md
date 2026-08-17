@@ -32,13 +32,13 @@ This paradata table contains four fields.
 *Date*
 used to record the date of the observation
 
-> Weather
+*Weather*
 To record the weather conditions during the survey
 
-> Ground Conditions
+*Ground Conditions*
 To record the condition of the ground when survey was undertaken. (Dry, waterlogged etc)
 
-> General Description
+*General Description*
 to record any general information not already covered.
 
 # Layers
