@@ -54,7 +54,7 @@ Table structure:
 
 | Field | Description |
 | :---        |    ---   | 
-| Name | Used to record the full name of the operative |
+| `Name` | Used to record the full name of the operative |
 
 ### Value Relation Tables
 
@@ -68,7 +68,7 @@ Table structure:
 
 | Field | Description |
 | :---        |    ---   | 
-| Artefact Type | Used to record the type of artefact recorded |
+| `Artefact Type` | Used to record the type of artefact recorded |
 
 
 # Spatial Layers
@@ -77,6 +77,7 @@ This is a point geometry layer used to pinpoint a find recorded during fieldwalk
 ### Symbology
 The symbology for this layer is set as categorised based off of the Find Type value which is controlled by a value relation table (discussed above). This means that each unique artefact type is displayed as its own colour. *Note* if you add a new finds type you will need to reclassify the categorised symbology and push changes back to Qfield.
 ### Attributes
+
 | Field | Description |
 | :---        |    ---   | 
 |   `Find Number` (integer)    | This field is used to record a unique find number. It is possible to add a custom user expression to automatically number this field but I have intentionally left it blank so that the recorder can assign whatever unique number they wish. As a matter of good practise - each find should be given its own unique identifier so that any further specialist info may be related to the spatial layer. If operating a fieldwalking project with more than one Qfield project running - it would be a good idea for the qfield recorders to issue themselves blocks of numbers so that cross over in finds numbering cant occur. This field is deliberately set to enforced no NULL values. This is to ensure that each record gets a unique finds number - the record wont save without it.   | 
@@ -90,12 +91,15 @@ The symbology for this layer is set as categorised based off of the Find Type va
 ## `areas_covered` (polygon layer)
 This layer can be used to visually depict the area covered by fieldwalking. This is especially useful when analysing finds distribution to note any gaps in the area surveyed.
 ### Attributes
-### *Date (date/time)*
-Hidden from the user and automatically populated using a now() default user expression. This allows for spatial analysis of coverage areas over time.
 
-## areas_unavailable (polygon)
-this layer can be used to visualise areas that are not availbale for fieldwalking. Useful again in spatial distribution analysis and as a record of which areas still need covering.
-### *Date (date/time)*
-Hidden from the user and automatically populated using a now() default user expression. This allows for spatial analysis of coverage areas over time.
-### *Description*
-Free text description of the particular constraint (for example "Area flooded during survey" etc) This attribute is displayed as a label for ease of viewing.
+| Field | Description |
+| :---        |    ---   | 
+| `Date` (date/time) | Hidden from the user and automatically populated using a now() default user expression. This allows for spatial analysis of coverage areas over time. |
+
+## `areas_unavailable` (polygon layer)
+This layer can be used to visualise areas that are not availbale for fieldwalking. Useful again in spatial distribution analysis and as a record of which areas still need covering.
+
+| Field | Description |
+| :---        |    ---   | 
+| `Date` (date/time) | Hidden from the user and automatically populated using a now() default user expression. This allows for spatial analysis of coverage areas over time. |
+|`Description` |Free text description of the particular constraint (for example "Area flooded during survey" etc) This attribute is displayed as a label for ease of viewing. |
